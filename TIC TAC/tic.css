@@ -1,0 +1,159 @@
+#body{
+    margin:0px;
+    padding:0px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+
+}
+#button{
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 44%;
+}
+#instructions{
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+h4{
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+#button:hover {
+  opacity: 1
+}
+#title{
+  font-family: "Montserrat";
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 45vh;
+	letter-spacing: 1px;
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 58px;
+	line-height: .75;
+	margin: 10px 0;
+}
+#hr{
+  margin-left: auto;
+}
+body{
+    margin:0px;
+    padding:0px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+.game td
+{
+    width:100px;
+    height:100px;
+    border: solid 5px black;
+    text-align:center;
+    font-size:40pt;
+    border-radius:10px;
+    box-sizing:border-box;
+}
+
+.game td:hover
+{
+    background-color: lightgrey;
+    cursor:pointer;
+}
+
+.game
+{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    border:solid 5px black;
+}
+
+.game .game-title
+{
+    background:#green;
+    color:yellow;
+    padding: 10px;
+    text-align:center;
+}
+
+.game .player
+{
+    float:left;
+    text-align:center;
+    width: 50%;
+}
+
+.game .player .selected
+{
+    border-bottom:solid 4px lightblue;
+}
+
+.tictactoe-board
+{
+    text-align:center;
+    margin:0 auto;
+    width:50%;
+    padding-top:20px;
+}
+
+.tictactoe-board table
+{
+    float:left;
+    width: 50%;
+}
+
+.tictactoe-board-score1
+{
+    float:left;
+    width:20%;
+}
+
+.tictactoe-board-score2
+{
+    float:left;
+    width:20%;
+}
+#appreciate{
+  font-size: 300%;
+  text-align: center;
+  color: white;
+  text-shadow: 6px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+#button2{
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 74%;
+}
+#button2:hover {
+  opacity: 1
+}
+.clear
+{
+    clear:both;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="tic.css">
+    </head>
+
+         <body id="body">  <!-- starting of body-->
+             <h2 id= "title"> LETS PLAY TIC TAC TOE</h2>
+             <hr id="hr">
+             <br><br><br>
+			       <h3 id="instructions"> **** Instructions ****</h3>
+             <h4> ** It's a Two player game **</h4>
+				     <h4> ** Only 9 moves offered **</h4>
+				     <h4> ** First player who obtain their letter diagonally or row-wise or coloumn-wise<br>
+				        	will win the game **</h4><br>
+             <button type="button" id="button">START PLAY</button>
+			   	  <script src="tic.js" async defer></script><!--path of javascript-->
+					  <script type="text/javascript">
+                  document.getElementById("button").onclick = function () {
+                     location.href = "tic.html";
+
+
+                };//action listener and event occurence
+            </script>
+
+        </body>
+</html>
